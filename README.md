@@ -1,5 +1,15 @@
 # Project 9 - Honeypot
 
+## Honeypot(s) deployed
+
+## Summary of data collected
+
+## Unresolved Questions
+
+## Json export of the data collected
+
+## Issues Encountered
+
 ## Resources
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
