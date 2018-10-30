@@ -2,7 +2,7 @@
 
 ## Honeypot(s) deployed
 
-For this project I deployed the following honeypots,  
+- For this project I deployed the following honeypots,
 	- Dionaea over HTTP
 		- As mentioned in the assignment, Dionaea over HTTP is a honeypot that is used to trap malware samples. "Dionaea supports ipv6 and tls and uses libemu to detect shellcodes" ([Reference Link](https://github.com/threatstream/mhn/wiki/Dionaea-Sensor)).
 	- p0f
@@ -10,10 +10,10 @@ For this project I deployed the following honeypots,
 	- Snort
 		- Snort is a honeypot that is "capable of real-time traffic analysis and packet logging" ([Reference Link](https://github.com/threatstream/mhn/wiki/Snort-Sensor)).  
 	
-	To create the MHN Admin VM and deploy the honeypots, I used Google Cloud. I was able to follow the provided instructions properly, however, I did encounter a few issues during the set-up process. More information about these issues is provided below under the Issues Encountered section.
+- To create the MHN Admin VM and deploy the honeypots, I used Google Cloud. I was able to follow the provided instructions properly, however, I did encounter a few issues during the set-up process. More information about these issues is provided below under the Issues Encountered section.
 	
-	Provided below is a GIF that demonstrates that honeypots that were deployed and the corresponding attack reports.  
-	GIF: ![]() 
+- Provided below is a GIF that demonstrates that honeypots that were deployed and the corresponding attack reports.
+	- GIF: ![]() 
 
 ## Summary of data collected
 
