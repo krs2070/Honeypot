@@ -2,6 +2,11 @@
 
 ## Honeypot(s) deployed
 
+For this project I deployed the following honeypots
+- Dionaea over HTTP
+- p0f
+- Snort
+
 ## Summary of data collected
 
 ## Unresolved Questions
