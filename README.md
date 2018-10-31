@@ -49,6 +49,10 @@
 	- Unfortunately no malware samples were captured by this honeypot.
 
 - Provided below is the summary specific to p0f honeypot.
+	- Provided below is the image of an Attack Report page for the p0f honeypot
+	![](https://i.imgur.com/ffXZFRD.jpg)
+	- Total number of attacks captured: 487 attacks
+	- Based on the data gathered, all the captured attacks use the pcap protocol.
 
 - Provided below is the summary specific to Snort honeypot.
 
