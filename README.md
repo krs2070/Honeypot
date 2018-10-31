@@ -25,9 +25,9 @@
 	- Total number of attacks captured: 4293 attacks
 	- Of all the attacks captured,
 		- Dionaea over HTTP honeypot captured the highest number of attacks with 3438 captured attacks.
-		- p0f honeypot with 487 captured attacks
-		- Snort honeypot with 368 captured attacks.
-	- Attacker IP with most attacks: 98.249.5.34 (This is the IP of the Kali VM that I used to attack the Dionaea over HTTP honeypot. This indicates that when I used the nmap command to attack the honeypot, a total of 2848 attacks were triggered.)
+		- p0f honeypot captured 487 attacks
+		- Snort honeypot captured 368 attacks.
+	- Attacker IP with most attacks: 98.249.5.34 (This is the IP of the Kali VM that I used to attack the Dionaea over HTTP honeypot. This indicates that when I used the nmap command to attack the honeypot, a total of 2848 attacks were triggered). Provided below is the list of top 5 attacker IPs.
 		- IP 98.249.5.34 attacked 2848 times.
 		- IP 209.141.35.236 attacked 118 times.
 		- IP 46.166.142.138 attacked 110 times.
@@ -40,6 +40,19 @@
 		- Port 22 was attacked 61 times.
 		- Port 23 was attacked 43 times.
 		- Port 8080 was attacked 19 times.
+
+- Provided below is the summary specific to Dionaea over HTTP honeypot.
+	- Provided below is the image of an Attack Report page for the Dionaea over HTTP honeypot
+	![](https://i.imgur.com/fmVKbya.jpg)
+	- Total number of attacks captured: 3438 attacks
+	- Based on the data gathered, a majority of the captured attacks use the pcap protocol. SipSession, httpd, and smbd are among the few other protocols used.
+	- Unfortunately no malware samples were captured by this honeypot.
+
+- Provided below is the summary specific to p0f honeypot.
+
+- Provided below is the summary specific to Snort honeypot.
+
+
 
 ## Unresolved Questions
 
