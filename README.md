@@ -14,7 +14,7 @@ Time spent: **7** hours spent in total
 	
 - To create the MHN Admin VM and deploy the honeypots, I used Google Cloud. I was able to follow the provided instructions properly, however, I did encounter a few issues during the set-up process. More information about these issues is provided below under the Issues Encountered section.
 	
-- Provided below is a GIF that shows the honeypots that were deployed, and the corresponding attack reports and payload reports (if applicable).
+- Provided below is a GIF that shows the attack reports and payload reports (if applicable) for all the 3 honeypots that I deployed.
 	- GIF: ![](https://i.imgur.com/cWvPUww.gif) 
 
 ## Summary of data collected
@@ -71,7 +71,7 @@ Time spent: **7** hours spent in total
 		- ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 12 (13 times)
 	
 ## Json export of the data collected
-- I have included a json export of the data collected from my honeypots in this repository. To make it easier to find it, provided below is the link to the document  
+- I have included a json export of the data collected from my honeypots in this repository. To make it easier to find it, provided below is the link to the document. 
 https://github.com/krs2070/Honeypot/blob/master/session.json
 
 ## Unresolved Questions
@@ -82,7 +82,7 @@ https://github.com/krs2070/Honeypot/blob/master/session.json
 	
 	- While installing the MHN Admin Application, the assignment instructions tell us to clone the https://github.com/RedolentSun/mhn.git repository. However, after cloning the repo, when I ran the install.sh, the install process failed due to a missing repository fatal error. After discussing this issue with a TA, I was able to fix it by cloning the https://github.com/threatstream/mhn.git repository instead of https://github.com/RedolentSun/mhn.git.
 	
-	- On the first attempt, I wasn't able to load and view the MHN admin console in the browser. I had to update the MHN Admin VM's firewalls to HTTP and HTTPS traffic to be able to view the MHN admin console in the browser. The assignment instructions does not mention anything about this.
+	- On the first attempt, I wasn't able to load and view the MHN admin console in the browser. I had to update the MHN Admin VM's firewalls to allow HTTP and HTTPS traffic to be able to view the MHN admin console in the browser. The assignment instructions does not mention anything about this.
 	
 	- I also tried deploying the Conpot and Cowrie honeypots, however, I was not able to do due to issues that I faced with running the deploy.sh script on the google cloud VM.
 
