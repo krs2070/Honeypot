@@ -16,6 +16,12 @@
 	- GIF: ![]() 
 
 ## Summary of data collected
+- To collect a good amount of data, I deployed the above mentioned 3 honeypots and allowed them to run for a few hours.
+- As mentioned in Milestone 5 of the assignment instructions, I also attacked the Dionaea over HTTP honeypot. I attacked the honeypot from my Kali VM using the nmap command as mentioned in the instructions for Milestone 5. After attacking the Dionaea over HTTP honeypot, I was able to see the IP address of the Kali VM in the Attack Report of the honeypot.
+- According the assignment instructions, Dionaea over HTTP is a honeypot used to trap malware samples. Unfortunately, the honeypot that I deployed was unable to capture any malware samples.
+- The image below, captured from the MHN Admin console, shows the overall attack stats.  
+![](https://i.imgur.com/aRLGxep.jpg)
+
 
 ## Unresolved Questions
 
