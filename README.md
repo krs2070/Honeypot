@@ -45,16 +45,29 @@
 	- Provided below is the image of an Attack Report page for the Dionaea over HTTP honeypot
 	![](https://i.imgur.com/fmVKbya.jpg)
 	- Total number of attacks captured: 3438 attacks
-	- Based on the data gathered, a majority of the captured attacks use the pcap protocol. SipSession, httpd, and smbd are among the few other protocols used.
+	- Based on the data gathered, a majority of the attacks use the pcap protocol. SipSession, httpd, and smbd are among the few other protocols used.
 	- Unfortunately no malware samples were captured by this honeypot.
 
 - Provided below is the summary specific to p0f honeypot.
 	- Provided below is the image of an Attack Report page for the p0f honeypot
 	![](https://i.imgur.com/ffXZFRD.jpg)
 	- Total number of attacks captured: 487 attacks
-	- Based on the data gathered, all the captured attacks use the pcap protocol.
+	- Based on the data gathered, all the attacks use the pcap protocol.
 
 - Provided below is the summary specific to Snort honeypot.
+	- Provided below is the image of an Attack Report page for the Snort honeypot
+	![](https://i.imgur.com/pnWjpqf.jpg)
+	- Total number of attacks captured: 368 attacks
+	- Based on the data gathered, all the attacks either use the TCP or UDP protocol. 
+	- The Snort honeypot also generated a Payloads report. Provided below is the image of an Payloads Report page for the Snort honeypot.
+	![](https://i.imgur.com/exKmfMo.jpg)
+	- The payloads report provides information about Attack signatures. From the data gathered, provided below is the list of top 5 attacks signatures.
+		- ET SCAN SipCLI VOIP Scan (110 times)
+		- ET DROP Dshield Block Listed Source group 1 (99 times)
+		- ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 17 (48 times)
+		- ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 13 (25 times)
+		- ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 12 (13 times)
+	
 
 
 
