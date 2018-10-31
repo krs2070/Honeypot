@@ -20,6 +20,8 @@
 ## Unresolved Questions
 
 ## Json export of the data collected
+- I have included a json export of the data collected from my honeypots in this repository. To make it easier to find it, provided below is the link to the document  
+	[session.json]()
 
 ## Issues Encountered
 
