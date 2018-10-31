@@ -1,5 +1,7 @@
 # Project 9 - Honeypot
 
+Time spent: **7** hours spent in total
+
 ## Honeypot(s) deployed
 
 - For this project I deployed the following honeypots,
@@ -12,7 +14,7 @@
 	
 - To create the MHN Admin VM and deploy the honeypots, I used Google Cloud. I was able to follow the provided instructions properly, however, I did encounter a few issues during the set-up process. More information about these issues is provided below under the Issues Encountered section.
 	
-- Provided below is a GIF that shows the honeypots that were deployed, and the corresponding attack reports and payload reports(if applicable).
+- Provided below is a GIF that shows the honeypots that were deployed, and the corresponding attack reports and payload reports (if applicable).
 	- GIF: ![](https://i.imgur.com/cWvPUww.gif) 
 
 ## Summary of data collected
@@ -68,11 +70,12 @@
 		- ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 13 (25 times)
 		- ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 12 (13 times)
 	
-## Unresolved Questions
-
 ## Json export of the data collected
 - I have included a json export of the data collected from my honeypots in this repository. To make it easier to find it, provided below is the link to the document  
 https://github.com/krs2070/Honeypot/blob/master/session.json
+
+## Unresolved Questions
+- It was mentioned above in the Summary of data collected section of the README that, despite running the honeypots for several hours, no malware samples were collected. We also know that the Dionaea over HTTP honeypot is used to trap malware samples. One big question that this raises is how much longer will it take for a malware sample to be captured by the honeypots?
 
 ## Issues Encountered
 - Provided below is the list of issues that I encountered while completing the assignment
