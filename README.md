@@ -21,7 +21,25 @@
 - According the assignment instructions, Dionaea over HTTP is a honeypot used to trap malware samples. Unfortunately, the honeypot that I deployed was unable to capture any malware samples.
 - The image below, captured from the MHN Admin console, shows the overall attack stats.  
 ![](https://i.imgur.com/aRLGxep.jpg)
-
+- Provided below is the overall summary of the data collected.
+	- Total number of attacks captured: 4293 attacks
+	- Of all the attacks captured,
+		- Dionaea over HTTP honeypot captured the highest number of attacks with 3438 captured attacks.
+		- p0f honeypot with 487 captured attacks
+		- Snort honeypot with 368 captured attacks.
+	- Attacker IP with most attacks: 98.249.5.34 (This is the IP of the Kali VM that I used to attack the Dionaea over HTTP honeypot. This indicates that when I used the nmap command to attack the honeypot, a total of 2848 attacks were triggered.)
+		- IP 98.249.5.34 attacked 2848 times.
+		- IP 209.141.35.236 attacked 118 times.
+		- IP 46.166.142.138 attacked 110 times.
+		- IP 209.141.56.95 attacked 74 times.
+		- IP 62.210.141.119 attacked 67 times.
+	- After analyzing the data more, I realized that the attacks came from a lot of different countries, but the country with the highest number of attacks was USA.
+	- Overall, the 5 most attacked ports were 8088, 5060, 22, 23, and 8080. The 8088 port was the most attacked port. 
+		- Port 8088 was attacked 709 times.
+		- Port 5060 was attacked 205 times.
+		- Port 22 was attacked 61 times.
+		- Port 23 was attacked 43 times.
+		- Port 8080 was attacked 19 times.
 
 ## Unresolved Questions
 
