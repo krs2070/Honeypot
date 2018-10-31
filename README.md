@@ -12,8 +12,8 @@
 	
 - To create the MHN Admin VM and deploy the honeypots, I used Google Cloud. I was able to follow the provided instructions properly, however, I did encounter a few issues during the set-up process. More information about these issues is provided below under the Issues Encountered section.
 	
-- Provided below is a GIF that demonstrates that honeypots that were deployed and the corresponding attack reports.
-	- GIF: ![]() 
+- Provided below is a GIF that shows the honeypots that were deployed, and the corresponding attack reports and payload reports(if applicable).
+	- GIF: ![](https://i.imgur.com/ttKRwru.gif) 
 
 ## Summary of data collected
 - To collect a good amount of data, I deployed the above mentioned 3 honeypots and allowed them to run for a few hours.
@@ -68,9 +68,6 @@
 		- ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 13 (25 times)
 		- ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 12 (13 times)
 	
-
-
-
 ## Unresolved Questions
 
 ## Json export of the data collected
