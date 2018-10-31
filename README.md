@@ -24,6 +24,13 @@
 https://github.com/krs2070/Honeypot/blob/master/session.json
 
 ## Issues Encountered
+- Provided below is the list of issues that I encountered while completing the assignment
+	
+	- While installing the MHN Admin Application, the assignment instructions tell us to clone the https://github.com/RedolentSun/mhn.git repository. However, after cloning the repo, when I ran the install.sh, the install process failed due to a missing repository fatal error. After discussing this issue with a TA, I was able to fix it by cloning the https://github.com/threatstream/mhn.git repository instead of https://github.com/RedolentSun/mhn.git.
+	
+	- On the first attempt, I wasn't able to load and view the MHN admin console in the browser. I had to update the MHN Admin VM's firewalls to HTTP and HTTPS traffic to be able to view the MHN admin console in the browser. The assignment instructions does not mention anything about this.
+	
+	- I also tried deploying the Conpot and Cowrie honeypots, however, I was not able to do due to issues that I faced with running the deploy.sh script on the google cloud VM.
 
 ## Resources
 
